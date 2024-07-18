@@ -53,8 +53,12 @@ ul > li{
   list-style: none;
   border-right: 1px solid #000;
   padding-right: 45px;
-
 }
+
+#ultima-li{
+  border-right: none;
+}
+
 ul li a{
   text-decoration: none;
   color: #000;
