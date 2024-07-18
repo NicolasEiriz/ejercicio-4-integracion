@@ -74,8 +74,8 @@ ul li a{
 }
 
 .imagen-principal{
-  background-image: url(../imagenes/imagen-principal.avif);
-
+  background-image: url(../imagenes/fachry-zella-devandra-u3YoW5MX26Y-unsplash.jpg);
+background-position: center;
   background-size: cover;
   height: 420px;
   width: 65%;
