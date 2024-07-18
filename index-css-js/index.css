@@ -51,11 +51,14 @@ img{
 
 ul > li{
   list-style: none;
+  border-right: 1px solid #000;
+  padding-right: 45px;
 
 }
 ul li a{
   text-decoration: none;
   color: #000;
+  letter-spacing: 1px;
 }
 
 
