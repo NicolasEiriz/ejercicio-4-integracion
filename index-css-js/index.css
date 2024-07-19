@@ -4,23 +4,24 @@
   box-sizing: border-box;
 }
 
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 header{
   background-color: #FF5D77;
   color:#ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header-flex-container{
+header div.flex-container{
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /* padding: 25px 415px; */
-
 }
 
-header a, 
-header h1{
+header h1, 
+header a{
   font-size: 25px;
   color: #fff;
   text-decoration: none;
@@ -33,26 +34,25 @@ header h1{
   gap: 5px;
 }
 
-img{
-  color: white;
-}
-
-.ul-flex-container{
-  /* padding: 10px 415px; */
-  height: 28px;
+nav{
   background-color: #F1F1F1;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+ul.flex-container{
+  width: 42%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ul > li{
   list-style: none;
   border-right: 1px solid #000;
-  padding-right: 45px;
+  padding-right: 5%;
 }
 
 #ultima-li{
@@ -65,26 +65,47 @@ ul li a{
   letter-spacing: 1px;
 }
 
+.imagen-principal{
+  background-image: url(../imagenes/fachry-zella-devandra-u3YoW5MX26Y-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
 main{
   display: flex;
   flex-direction: column;
-  gap: 120px;
-  /* justify-content: space-between; */
-}
-
-.main-flex-container{
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 40px;
 }
 
-.imagen-principal{
-  background-image: url(../imagenes/fachry-zella-devandra-u3YoW5MX26Y-unsplash.jpg);
-background-position: center;
-  background-size: cover;
-  height: 420px;
-  width: 65%;
+.productos{
+  flex-direction: column;
+  gap: 60px;
+}
+
+.productos h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  border-top: 1px solid #FF5D77;
+  padding-top: 25px;
+}
+
+
+
+.botines{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 20px
+
+}
+
+.botin{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
 }
 
 .form{
@@ -95,7 +116,6 @@ form{
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   gap: 10px;
   
