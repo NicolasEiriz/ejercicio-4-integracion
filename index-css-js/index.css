@@ -146,4 +146,5 @@ select{
   width: 50%;
   background-color: #ff5d78;
   color: #ffffff;
+  cursor: pointer;
 }
