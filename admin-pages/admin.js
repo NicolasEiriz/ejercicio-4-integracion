@@ -1,3 +1,9 @@
 var login = document.getElementById('acceso-admin').value;
 
-alert ("T")
+alert ("Su correo")
+
+if (login == true){
+}
+else {
+
+}
