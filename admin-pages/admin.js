@@ -1,9 +1,20 @@
-var login = document.getElementById('acceso-admin').value;
+alert("Escriba su correo y contraseña");
 
-alert ("Su correo")
+let usuarioCorrecto = 'pepe';
+let contrasenaCorrecta = '1234';
 
-if (login == true){
+var login = prompt('acceso-admin');
+var contrasena = prompt('contraseña');
+
+
+if (login == usuarioCorrecto && contrasena == contrasenaCorrecta){
+    alert("Su correo y su contraseña son correctas")
+    
 }
-else {
 
+else{
+    alert("Usuario Incorrecto");
+    window.location.href = '../index.html';
 }
+
+
