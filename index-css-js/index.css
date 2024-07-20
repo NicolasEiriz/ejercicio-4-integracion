@@ -11,7 +11,7 @@
 }
 
 header{
-  background-color: #FF5D77;
+  background-color: #F66F33;
   color:#ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -88,7 +88,7 @@ main{
 .productos h2{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
-  border-top: 1px solid #FF5D77;
+  border-top: 1px solid #F66F33;
   padding-top: 25px;
 }
 
@@ -109,7 +109,7 @@ main{
 }
 
 .form{
-  border-top: 1px solid #FF5D77;
+  border-top: 1px solid #F66F33;
 }
 
 form{
@@ -144,7 +144,8 @@ select{
 
 .buttons button{
   width: 50%;
-  background-color: #ff5d78;
+  background-color: #ff5811;
   color: #ffffff;
   cursor: pointer;
+  font-weight: bold;
 }
